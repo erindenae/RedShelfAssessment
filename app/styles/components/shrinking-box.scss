@@ -1,4 +1,23 @@
 .shrinking-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: 1px solid darkslateblue;
   padding:1em;
+  width: 360px;
+  height: 360px;
+  background-color: rgb(200, 200, 200);
+  color: black;
+  cursor: pointer;
+
+  transition: all 500ms;  
+}
+
+
+.is-small {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(12, 89, 100);	
+	color: white;
 }

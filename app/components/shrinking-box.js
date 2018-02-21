@@ -23,6 +23,7 @@ export default Ember.Component.extend({
 
   click: function(){
     //toggle this component's isSmall property here
+    this.toggleProperty('isSmall');
   }
 
 });
